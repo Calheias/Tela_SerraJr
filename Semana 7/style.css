@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+  height: 100%;
+}
+
+header {
+  background-color: #021c38;
+  padding: 20px;
+  text-align: left;
+  text-indent: 100px;
+  color: #ffffff;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.descricao input {
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #fd7526;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.descricao button {
+  background-color: #fd7526;
+  color: #ffffff;
+  width: 25%;
+  padding: 10px 30px;
+
+  border-radius: 20px;
+  border-color: #fd7526;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.receitas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+/* 
+  .receitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  width: 60%;
+}
+
+  .receitas {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  width: 60%;
+} */
+
+.card {
+  background-color: #fd7526;
+  color: #ffffff;
+  box-shadow: none;
+  border-radius: 20px;
+  padding: 15px;
+  flex: 0 0 40%;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin: 0 0 3px;
+}
+
+.card p {
+  margin: 3px 0;
+}
+
+.card .lixeira {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #021c38;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+}
